@@ -42,7 +42,7 @@ cwd = os.getcwd()
 
 
 # Read the image data into the script.
-image_data = tf.imread(cwd + '/single_frame_image.tif')
+image_data = tf.imread(cwd + 'Image_and_Script/single_frame_image.tif')
 # Copy image data so as not to corrupt raw data. 
 im_data_copy = np.array(image_data)
 

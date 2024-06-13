@@ -1,0 +1,18 @@
+--------------------------------
+ Commenced = Thu Jun 13 14:49:50 2024 
+ Author    = David McGuinness <david.mcguinness.2@glasgow.ac.uk>
+ Command   = /home/davidmcguinness/.fair/data/jobs/2024-06-13_14_49_50_103501/script.sh
+--------------------------------
+Traceback (most recent call last):
+  File "/media/davidmcguinness/extradrive2/Data_Analysis/FAIR_data_pipeline/FairDataPipepline/Image_and_Script/simple_analysis.py", line 45, in <module>
+    image_data = tf.imread(cwd + '/single_frame_image.tif')
+  File "/home/davidmcguinness/.local/lib/python3.10/site-packages/tifffile/tifffile.py", line 1230, in imread
+    with TiffFile(
+  File "/home/davidmcguinness/.local/lib/python3.10/site-packages/tifffile/tifffile.py", line 4240, in __init__
+    fh = FileHandle(file, mode=mode, name=name, offset=offset, size=size)
+  File "/home/davidmcguinness/.local/lib/python3.10/site-packages/tifffile/tifffile.py", line 14555, in __init__
+    self.open()
+  File "/home/davidmcguinness/.local/lib/python3.10/site-packages/tifffile/tifffile.py", line 14574, in open
+    self._fh = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/media/davidmcguinness/extradrive2/Data_Analysis/FAIR_data_pipeline/FairDataPipepline/single_frame_image.tif'
+------- time taken 0:00:00.484413 -------
