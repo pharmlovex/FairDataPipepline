@@ -1,0 +1,107 @@
+--------------------------------
+ Commenced = Thu Jun 13 15:29:24 2024 
+ Author    = Ryan Corbyn <RCorbyn@users.noreply.github.com>
+ Command   = C:\Users\RCORBYN\.fair\data\jobs\2024-06-13_15_29_24_746831\script.bat
+--------------------------------
+
+(FAIR_Pipeline) C:\Users\RCORBYN\Documents\GitHub\Hack_2\FairDataPipepline>jupyter nbconvert --to html --execute Image_and_Script/simple_analysis.ipynb 
+[NbConvertApp] Converting notebook Image_and_Script/simple_analysis.ipynb to html
+[NbConvertApp] WARNING | Kernelspec name conda-env-Ryan_2-py cannot be found!
+[NbConvertApp] ERROR | No such kernel named conda-env-Ryan_2-py
+Traceback (most recent call last):
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\manager.py", line 87, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\manager.py", line 435, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\manager.py", line 397, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\manager.py", line 195, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\kernelspec.py", line 285, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named conda-env-Ryan_2-py
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Scripts\jupyter-nbconvert.EXE\__main__.py", line 7, in <module>
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_core\application.py", line 283, in launch_instance
+    super().launch_instance(argv=argv, **kwargs)
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\traitlets\config\application.py", line 1075, in launch_instance
+    app.start()
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\nbconvertapp.py", line 420, in start
+    self.convert_notebooks()
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\nbconvertapp.py", line 597, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\nbconvertapp.py", line 563, in convert_single_notebook
+    output, resources = self.export_single_notebook(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\nbconvertapp.py", line 487, in export_single_notebook
+    output, resources = self.exporter.from_filename(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\exporters\templateexporter.py", line 386, in from_filename
+    return super().from_filename(filename, resources, **kw)  # type:ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\exporters\exporter.py", line 201, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\exporters\templateexporter.py", line 392, in from_file
+    return super().from_file(file_stream, resources, **kw)  # type:ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\exporters\exporter.py", line 220, in from_file
+    return self.from_notebook_node(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\exporters\html.py", line 268, in from_notebook_node
+    html, resources = super().from_notebook_node(nb, resources, **kw)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\exporters\templateexporter.py", line 408, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\exporters\exporter.py", line 154, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\exporters\exporter.py", line 353, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\preprocessors\base.py", line 48, in __call__
+    return self.preprocess(nb, resources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbconvert\preprocessors\execute.py", line 97, in preprocess
+    with self.setup_kernel():
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbclient\client.py", line 600, in setup_kernel
+    self.start_new_kernel(**kwargs)
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_core\utils\__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\nbclient\client.py", line 550, in async_start_new_kernel
+    await ensure_async(self.km.start_kernel(extra_arguments=self.extra_arguments, **kwargs))
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_core\utils\__init__.py", line 198, in ensure_async
+    result = await obj
+             ^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\manager.py", line 96, in wrapper
+    raise e
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\manager.py", line 87, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\manager.py", line 435, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\manager.py", line 397, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\manager.py", line 195, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\jupyter_client\kernelspec.py", line 285, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named conda-env-Ryan_2-py
+------- time taken 0:00:10.802185 -------
