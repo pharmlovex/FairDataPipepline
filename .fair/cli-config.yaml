@@ -1,5 +1,5 @@
 git:
-  local_repo: C:/Users/RCORBYN/Documents/GitHub/Hackathon/FairDataPipepline
+  local_repo: C:/Users/RCORBYN/Documents/GitHub/Hack_2/FairDataPipepline
   remote: origin
   remote_repo: https://github.com/pharmlovex/FairDataPipepline.git
 namespaces:
