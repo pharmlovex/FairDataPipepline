@@ -222,3 +222,5 @@ Please specify a subcommand or one of the optional arguments.
 [I 2024-06-13 14:44:54.651 ServerApp] Saving file at /config.yaml
 [I 2024-06-13 14:45:27.502 ServerApp] Saving file at /config.yaml
 [I 2024-06-13 15:03:14.329 ServerApp] Starting buffering for 04604286-e78c-4d77-bfc2-e5d18ad0f2e0:41c304f5-0b62-4ee7-bc45-cbf84e76ba5f
+[I 2024-06-13 15:27:48.158 ServerApp] Kernel started: 13715573-2480-4221-9995-6d9059069774
+[I 2024-06-13 15:27:48.675 ServerApp] Connecting to kernel 13715573-2480-4221-9995-6d9059069774.

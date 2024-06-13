@@ -21,9 +21,11 @@
 
 import tifffile as tf
 import skimage
-import pandas as pd 
-import os 
+import pandas as pd
+import os
 import numpy as np
+import platform
+import data_pipeline_api as pipeline
 
 
 # ----
@@ -31,8 +33,13 @@ import numpy as np
 
 # In[15]:
 
-
-cwd = os.getcwd()
+token = str(os.environ.get("FDP_LOCAL_TOKEN"))
+#cwd = os.getcwd()
+script = os.path.join(str(os.environ.get("FDP_CONFIG_DIR")), "script.sh")
+if platform.system() == "Windows":
+    script = os.path.join(str(os.environ.get("FDP_CONFIG_DIR")), "script.bat")
+config = os.path.join(str(os.environ.get("FDP_CONFIG_DIR")), "config.yaml")
+handle = pipeline.initialise(token, config, script)
 
 
 # ----
@@ -42,7 +49,7 @@ cwd = os.getcwd()
 
 
 # Read the image data into the script.
-image_data = tf.imread(cwd + '/Image_and_Script/single_frame_image.tif')
+image_data = tf.imread(pipeline.link_read(handle, 'Image_and_Script/single_frame_image.tif'))
 # Copy image data so as not to corrupt raw data. 
 im_data_copy = np.array(image_data)
 
@@ -84,9 +91,10 @@ mask_data = pd.DataFrame(skimage.measure.regionprops_table(labels, properties = 
 
 
 # Use tifffile to save the cell masks. 
-tf.imwrite(cwd + '/Image_and_Script/single_frame_image_mask.tif', labels)
+tf.imwrite(pipeline.link_write(handle, 'Image_and_Script/single_frame_image_mask.tif', labels))
 
 # Use Pandas to save shape analysis as a 
 # .csv file. 
-mask_data.to_csv(cwd + '/Image_and_Script/single_frame_shape_analysis.csv')
+mask_data.to_csv(pipeline.link_write(handle, 'Image_and_Script/single_frame_shape_analysis.csv'))
 
+pipeline.finalise(token, handle)
