@@ -212,3 +212,12 @@ Please specify a subcommand or one of the optional arguments.
 [I 2024-06-13 14:01:48.070 ServerApp] Connecting to kernel 04604286-e78c-4d77-bfc2-e5d18ad0f2e0.
 [I 2024-06-13 14:03:47.399 ServerApp] Saving file at /Image_and_Script/simple_analysis.ipynb
 [I 2024-06-13 14:04:50.492 ServerApp] Saving file at /config.yaml
+[I 2024-06-13 14:41:29.246 JupyterNotebookApp] 302 GET /tree/Image_and_Script/simple_analysis.ipynb (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 1.76ms
+[I 2024-06-13 14:41:32.493 ServerApp] Connecting to kernel 56b47fcd-aa38-4364-8c68-30ac9f6f430d.
+[I 2024-06-13 14:41:32.498 ServerApp] Connecting to kernel bcf37935-4395-4c63-b911-4146c6eaa99d.
+[I 2024-06-13 14:41:32.506 ServerApp] Connecting to kernel 04604286-e78c-4d77-bfc2-e5d18ad0f2e0.
+[I 2024-06-13 14:41:33.018 ServerApp] Starting buffering for 56b47fcd-aa38-4364-8c68-30ac9f6f430d:4a7a7be6-3bf2-4608-a05c-a9ef439e920c
+[I 2024-06-13 14:41:33.211 ServerApp] Connecting to kernel 04604286-e78c-4d77-bfc2-e5d18ad0f2e0.
+[I 2024-06-13 14:41:47.983 ServerApp] Saving file at /Image_and_Script/simple_analysis.ipynb
+[I 2024-06-13 14:44:54.651 ServerApp] Saving file at /config.yaml
+[I 2024-06-13 14:45:27.502 ServerApp] Saving file at /config.yaml
