@@ -1,0 +1,12 @@
+--------------------------------
+ Commenced = Thu Jun 13 15:43:34 2024 
+ Author    = Ryan Corbyn <RCorbyn@users.noreply.github.com>
+ Command   = C:\Users\RCORBYN\.fair\data\jobs\2024-06-13_15_43_34_296637\script.bat
+--------------------------------
+
+(FAIR_Pipeline) C:\Users\RCORBYN\Documents\GitHub\Hack_2\FairDataPipepline>jupyter nbconvert --to html --execute Image_and_Script/simple_analysis.ipynb 
+[NbConvertApp] Converting notebook Image_and_Script/simple_analysis.ipynb to html
+C:\Users\RCORBYN\Anaconda3\envs\FAIR_Pipeline\Lib\site-packages\zmq\_future.py:724: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.
+  self._get_loop()
+[NbConvertApp] Writing 280903 bytes to Image_and_Script\simple_analysis.html
+------- time taken 0:00:13.191198 -------
