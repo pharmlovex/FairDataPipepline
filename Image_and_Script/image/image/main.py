@@ -1,6 +1,7 @@
 import os
 import platform
 from imgAnalysis import process_image
+import sys
 
 sys.path.append(str(os.getcwd()))
 import data_pipeline_api as pipeline  # noqa: E402
