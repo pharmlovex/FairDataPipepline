@@ -12,7 +12,7 @@ register:
  
 - external_object: Ryan_analysis/image
   namespace_name: realailaantoniou-kourounioti
-  root: file:///Users/ryanfield/Dev/FairDataPipepline/
+  root: file:///home/jovyan/work/FairDataPipepline/
   path: Image_and_Script/single_frame_image.tif
   title: Static image
   description: Static image to analyse
