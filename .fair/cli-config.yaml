@@ -1,0 +1,19 @@
+git:
+  local_repo: /media/davidmcguinness/extradrive2/Data_Analysis/FAIR_data_pipeline/FairDataPipepline
+  remote: origin
+  remote_repo: https://github.com/pharmlovex/FairDataPipepline.git
+namespaces:
+  input: David
+  output: David
+registries:
+  origin:
+    data_store: https://test-data.fairdatapipeline.org/data/
+    token: /home/davidmcguinness/.fair/cli/remotetoken.txt
+    uri: https://test-data.fairdatapipeline.org/api/
+user:
+  email: david.mcguinness.2@glasgow.ac.uk
+  family_name: McGuinness
+  given_names: David
+  name: David McGuinness
+  remote_user: dhmcg77
+  uri: https://github.com/dhmcg77

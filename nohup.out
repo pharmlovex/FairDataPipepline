@@ -1,0 +1,209 @@
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: console dejavu events execute kernel kernelspec lab
+labextension labhub migrate nbconvert notebook qtconsole run server
+troubleshoot trust
+
+Please specify a subcommand or one of the optional arguments.
+[I 2024-06-13 11:43:55.339 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-06-13 11:43:55.342 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-06-13 11:43:55.347 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-06-13 11:43:55.350 ServerApp] notebook | extension was successfully linked.
+[I 2024-06-13 11:43:55.527 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-06-13 11:43:55.538 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-06-13 11:43:55.540 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-06-13 11:43:55.540 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-06-13 11:43:55.541 LabApp] JupyterLab extension loaded from /home/davidmcguinness/.local/lib/python3.10/site-packages/jupyterlab
+[I 2024-06-13 11:43:55.541 LabApp] JupyterLab application directory is /home/davidmcguinness/.local/share/jupyter/lab
+[I 2024-06-13 11:43:55.542 LabApp] Extension Manager is 'pypi'.
+[I 2024-06-13 11:43:55.584 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-06-13 11:43:55.587 ServerApp] notebook | extension was successfully loaded.
+[I 2024-06-13 11:43:55.587 ServerApp] The port 8888 is already in use, trying another port.
+[I 2024-06-13 11:43:55.588 ServerApp] Serving notebooks from local directory: /media/davidmcguinness/extradrive2/Data_Analysis/FAIR_data_pipeline/FairDataPipepline
+[I 2024-06-13 11:43:55.588 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2024-06-13 11:43:55.588 ServerApp] http://localhost:8889/lab?token=183b4f854e0a2fe7a4c4e6ac14606f864f2034d0a2702a3c
+[I 2024-06-13 11:43:55.588 ServerApp]     http://127.0.0.1:8889/lab?token=183b4f854e0a2fe7a4c4e6ac14606f864f2034d0a2702a3c
+[I 2024-06-13 11:43:55.588 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-06-13 11:43:55.606 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/davidmcguinness/.local/share/jupyter/runtime/jpserver-1115446-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/lab?token=183b4f854e0a2fe7a4c4e6ac14606f864f2034d0a2702a3c
+        http://127.0.0.1:8889/lab?token=183b4f854e0a2fe7a4c4e6ac14606f864f2034d0a2702a3c
+[I 2024-06-13 11:43:55.785 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-06-13 11:44:00.494 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-06-13 11:44:00.989 ServerApp] 404 GET /api/contents/exercise_files/01_05_JupyterNotebook.ipynb?content=0&hash=0&1718275440983 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 1.06ms referer=http://localhost:8889/lab
+[W 2024-06-13 11:44:00.989 ServerApp] 404 GET /api/contents/exercise_files/01_05_JupyterNotebook.ipynb?content=0&hash=0&1718275440983 (127.0.0.1): No such file or directory: exercise_files/01_05_JupyterNotebook.ipynb
+[W 2024-06-13 11:44:00.990 ServerApp] 404 GET /api/contents/exercise_files/02_01_Basic_Data_Types.ipynb?content=0&hash=0&1718275440983 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 0.88ms referer=http://localhost:8889/lab
+[W 2024-06-13 11:44:00.990 ServerApp] 404 GET /api/contents/exercise_files/02_01_Basic_Data_Types.ipynb?content=0&hash=0&1718275440983 (127.0.0.1): No such file or directory: exercise_files/02_01_Basic_Data_Types.ipynb
+[W 2024-06-13 11:44:02.035 ServerApp] 404 GET /api/contents/exercise_files?1718275442031 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 1.00ms referer=http://localhost:8889/lab
+[W 2024-06-13 11:44:02.035 ServerApp] 404 GET /api/contents/exercise_files?1718275442031 (127.0.0.1): No such file or directory: exercise_files
+[W 2024-06-13 11:44:20.524 ServerApp] Notebook 1_registry_cli_install.ipynb is not trusted
+[I 2024-06-13 11:44:20.743 ServerApp] Kernel started: 242197c2-8c5e-4f9c-a474-8f9d3233fb64
+[I 2024-06-13 11:44:21.158 ServerApp] Connecting to kernel 242197c2-8c5e-4f9c-a474-8f9d3233fb64.
+[I 2024-06-13 11:44:21.162 ServerApp] Connecting to kernel 242197c2-8c5e-4f9c-a474-8f9d3233fb64.
+[I 2024-06-13 11:44:21.168 ServerApp] Connecting to kernel 242197c2-8c5e-4f9c-a474-8f9d3233fb64.
+[I 2024-06-13 11:46:20.604 ServerApp] Saving file at /1_registry_cli_install.ipynb
+[W 2024-06-13 11:47:06.848 ServerApp] Notebook 2a_python.ipynb is not trusted
+[I 2024-06-13 11:47:07.092 ServerApp] Kernel started: 70d04181-0958-4e0a-9938-840d425ebd9a
+[I 2024-06-13 11:47:07.539 ServerApp] Connecting to kernel 70d04181-0958-4e0a-9938-840d425ebd9a.
+[I 2024-06-13 11:48:21.033 ServerApp] Saving file at /1_registry_cli_install.ipynb
+[I 2024-06-13 11:49:06.954 ServerApp] Saving file at /2a_python.ipynb
+[I 2024-06-13 11:50:21.447 ServerApp] Saving file at /1_registry_cli_install.ipynb
+[I 2024-06-13 11:52:31.002 ServerApp] Interrupted...
+[I 2024-06-13 11:52:42.919 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-06-13 11:52:42.922 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-06-13 11:52:42.927 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-06-13 11:52:42.930 ServerApp] notebook | extension was successfully linked.
+[I 2024-06-13 11:52:43.091 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-06-13 11:52:43.103 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-06-13 11:52:43.105 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-06-13 11:52:43.106 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-06-13 11:52:43.107 LabApp] JupyterLab extension loaded from /home/davidmcguinness/.local/lib/python3.10/site-packages/jupyterlab
+[I 2024-06-13 11:52:43.107 LabApp] JupyterLab application directory is /home/davidmcguinness/.local/share/jupyter/lab
+[I 2024-06-13 11:52:43.107 LabApp] Extension Manager is 'pypi'.
+[I 2024-06-13 11:52:43.150 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-06-13 11:52:43.153 ServerApp] notebook | extension was successfully loaded.
+[I 2024-06-13 11:52:43.153 ServerApp] The port 8888 is already in use, trying another port.
+[I 2024-06-13 11:52:43.154 ServerApp] Serving notebooks from local directory: /media/davidmcguinness/extradrive2/Data_Analysis/FAIR_data_pipeline/FairDataPipepline
+[I 2024-06-13 11:52:43.154 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2024-06-13 11:52:43.154 ServerApp] http://localhost:8889/lab?token=ea021e611486bda19725dd535185352aa6f35c188f907f31
+[I 2024-06-13 11:52:43.154 ServerApp]     http://127.0.0.1:8889/lab?token=ea021e611486bda19725dd535185352aa6f35c188f907f31
+[I 2024-06-13 11:52:43.154 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-06-13 11:52:43.169 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/davidmcguinness/.local/share/jupyter/runtime/jpserver-1118298-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/lab?token=ea021e611486bda19725dd535185352aa6f35c188f907f31
+        http://127.0.0.1:8889/lab?token=ea021e611486bda19725dd535185352aa6f35c188f907f31
+[I 2024-06-13 11:52:43.326 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-06-13 11:52:44.714 ServerApp] 404 GET /api/kernels/242197c2-8c5e-4f9c-a474-8f9d3233fb64?1718275964575 (127.0.0.1): Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64
+[W 2024-06-13 11:52:44.714 ServerApp] wrote error: 'Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64'
+    Traceback (most recent call last):
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 501, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 532, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64)
+[W 2024-06-13 11:52:44.715 ServerApp] 404 GET /api/kernels/242197c2-8c5e-4f9c-a474-8f9d3233fb64?1718275964575 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 2.79ms referer=http://localhost:8889/lab/tree/1_registry_cli_install.ipynb
+[W 2024-06-13 11:52:44.716 ServerApp] 404 GET /api/kernels/70d04181-0958-4e0a-9938-840d425ebd9a?1718275964575 (127.0.0.1): Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a
+[W 2024-06-13 11:52:44.716 ServerApp] wrote error: 'Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a'
+    Traceback (most recent call last):
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 501, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 532, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a)
+[W 2024-06-13 11:52:44.716 ServerApp] 404 GET /api/kernels/70d04181-0958-4e0a-9938-840d425ebd9a?1718275964575 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 3.22ms referer=http://localhost:8889/lab/tree/1_registry_cli_install.ipynb
+[W 2024-06-13 11:52:46.053 ServerApp] 404 GET /api/kernels/242197c2-8c5e-4f9c-a474-8f9d3233fb64/channels?session_id=a3d2e253-03d9-4ba4-a8a1-7a5092f1761a (127.0.0.1): Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64
+[W 2024-06-13 11:52:46.066 ServerApp] 404 GET /api/kernels/242197c2-8c5e-4f9c-a474-8f9d3233fb64/channels?session_id=a3d2e253-03d9-4ba4-a8a1-7a5092f1761a (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 14.23ms referer=None
+[W 2024-06-13 11:52:46.075 ServerApp] 404 GET /api/kernels/70d04181-0958-4e0a-9938-840d425ebd9a/channels?session_id=60e0bdf6-58b5-4d26-9e3a-c5bb9f57edb5 (127.0.0.1): Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a
+[W 2024-06-13 11:52:46.075 ServerApp] 404 GET /api/kernels/70d04181-0958-4e0a-9938-840d425ebd9a/channels?session_id=60e0bdf6-58b5-4d26-9e3a-c5bb9f57edb5 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 1.31ms referer=None
+[W 2024-06-13 11:52:46.102 ServerApp] 404 GET /api/kernels/242197c2-8c5e-4f9c-a474-8f9d3233fb64?1718275966068 (127.0.0.1): Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64
+[W 2024-06-13 11:52:46.102 ServerApp] wrote error: 'Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64'
+    Traceback (most recent call last):
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 501, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 532, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64)
+[W 2024-06-13 11:52:46.103 ServerApp] 404 GET /api/kernels/242197c2-8c5e-4f9c-a474-8f9d3233fb64?1718275966068 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 0.89ms referer=http://localhost:8889/lab/tree/1_registry_cli_install.ipynb
+[W 2024-06-13 11:52:46.128 ServerApp] 404 GET /api/kernels/70d04181-0958-4e0a-9938-840d425ebd9a?1718275966090 (127.0.0.1): Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a
+[W 2024-06-13 11:52:46.128 ServerApp] wrote error: 'Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a'
+    Traceback (most recent call last):
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 501, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 532, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a)
+[W 2024-06-13 11:52:46.128 ServerApp] 404 GET /api/kernels/70d04181-0958-4e0a-9938-840d425ebd9a?1718275966090 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 0.91ms referer=http://localhost:8889/lab/tree/1_registry_cli_install.ipynb
+[W 2024-06-13 11:52:47.956 ServerApp] 404 GET /api/kernels/242197c2-8c5e-4f9c-a474-8f9d3233fb64/channels?session_id=a3d2e253-03d9-4ba4-a8a1-7a5092f1761a (127.0.0.1): Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64
+[W 2024-06-13 11:52:47.957 ServerApp] 404 GET /api/kernels/242197c2-8c5e-4f9c-a474-8f9d3233fb64/channels?session_id=a3d2e253-03d9-4ba4-a8a1-7a5092f1761a (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 4.49ms referer=None
+[W 2024-06-13 11:52:48.003 ServerApp] 404 GET /api/kernels/70d04181-0958-4e0a-9938-840d425ebd9a/channels?session_id=60e0bdf6-58b5-4d26-9e3a-c5bb9f57edb5 (127.0.0.1): Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a
+[W 2024-06-13 11:52:48.004 ServerApp] 404 GET /api/kernels/70d04181-0958-4e0a-9938-840d425ebd9a/channels?session_id=60e0bdf6-58b5-4d26-9e3a-c5bb9f57edb5 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 1.53ms referer=None
+[W 2024-06-13 11:52:48.055 ServerApp] 404 GET /api/kernels/242197c2-8c5e-4f9c-a474-8f9d3233fb64?1718275967958 (127.0.0.1): Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64
+[W 2024-06-13 11:52:48.055 ServerApp] wrote error: 'Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64'
+    Traceback (most recent call last):
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 501, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 532, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 242197c2-8c5e-4f9c-a474-8f9d3233fb64)
+[W 2024-06-13 11:52:48.056 ServerApp] 404 GET /api/kernels/242197c2-8c5e-4f9c-a474-8f9d3233fb64?1718275967958 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 1.09ms referer=http://localhost:8889/lab/tree/1_registry_cli_install.ipynb
+[W 2024-06-13 11:52:48.108 ServerApp] 404 GET /api/kernels/70d04181-0958-4e0a-9938-840d425ebd9a?1718275968006 (127.0.0.1): Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a
+[W 2024-06-13 11:52:48.108 ServerApp] wrote error: 'Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a'
+    Traceback (most recent call last):
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 501, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/davidmcguinness/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 532, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 70d04181-0958-4e0a-9938-840d425ebd9a)
+[W 2024-06-13 11:52:48.109 ServerApp] 404 GET /api/kernels/70d04181-0958-4e0a-9938-840d425ebd9a?1718275968006 (7da42c6710d64dae98906329e4d165cd@127.0.0.1) 1.08ms referer=http://localhost:8889/lab/tree/1_registry_cli_install.ipynb
+[W 2024-06-13 11:52:52.786 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-06-13 11:54:26.070 ServerApp] Creating new notebook in 
+[I 2024-06-13 11:54:28.100 ServerApp] Kernel started: 56b47fcd-aa38-4364-8c68-30ac9f6f430d
+[I 2024-06-13 11:54:28.597 ServerApp] Connecting to kernel 56b47fcd-aa38-4364-8c68-30ac9f6f430d.
+[I 2024-06-13 11:54:28.602 ServerApp] Connecting to kernel 56b47fcd-aa38-4364-8c68-30ac9f6f430d.
+[I 2024-06-13 11:54:28.609 ServerApp] Connecting to kernel 56b47fcd-aa38-4364-8c68-30ac9f6f430d.
+[I 2024-06-13 11:56:28.041 ServerApp] Saving file at /Untitled.ipynb
+[I 2024-06-13 13:46:52.620 ServerApp] Saving file at /config.yaml
+[I 2024-06-13 13:47:11.358 ServerApp] Saving file at /config.yaml
+[I 2024-06-13 13:49:09.736 ServerApp] Starting buffering for 56b47fcd-aa38-4364-8c68-30ac9f6f430d:34e68205-2da9-4f9d-ade7-1d199e65a0f2
+[I 2024-06-13 13:49:29.359 ServerApp] Kernel started: bcf37935-4395-4c63-b911-4146c6eaa99d
+[I 2024-06-13 13:49:29.768 ServerApp] Connecting to kernel bcf37935-4395-4c63-b911-4146c6eaa99d.
