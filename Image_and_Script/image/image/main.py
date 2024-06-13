@@ -13,7 +13,7 @@ if platform.system() == "Windows":
 config = os.path.join(str(os.environ.get("FDP_CONFIG_DIR")), "config.yaml")
 handle = pipeline.initialise(token, config, script)
 
-image_file = pipeline.link_read(handle, "work/FairDataPipepline/Image_and_Script/image/image/single_frame_image.tif")
+image_file = pipeline.link_read(handle, "~/work/FairDataPipepline/Image_and_Script/image/image/single_frame_image.tif")
 image_prop = pipeline.link_write(
     handle, "image/results/image_analysis"
 )
