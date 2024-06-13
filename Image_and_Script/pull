@@ -1,0 +1,5 @@
+run_metadata:
+  default_input_namespace: realailaantoniou-kourounioti
+  default_output_namespace: realailaantoniou-kourounioti
+  description: Project description
+  script: echo "Hello World!"
