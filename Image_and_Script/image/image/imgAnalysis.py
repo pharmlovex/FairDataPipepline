@@ -7,6 +7,13 @@ import argparse
 
 def process_image(file_path, mask_dir, prop_dir):
     # Read the image data into the script.
+    if not os.path.exists(file_path):
+        print(f"Error: The file {file_path} does not exist.")
+        sys.exit(1)
+    if not os.path.exists(mask_dir):
+        os.makedirs(mask_dir)
+    if not os.path.exists(prop_dir):
+        os.makedirs(prop_dir)
     image_data = tf.imread(file_path)
     # Copy image data so as not to corrupt raw data. 
     im_data_copy = np.array(image_data)
