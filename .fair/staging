@@ -1,8 +1,0 @@
-code_run: {}
-data_product:
-  PSU:SEIRS_model/parameters@v1.0.0: false
-  realailaantoniou-kourounioti:Ryan_analysis/image@v1.0.0: false
-  realailaantoniou-kourounioti:Ryan_analysis/image@v1.1.0: false
-  realailaantoniou-kourounioti:Ryan_analysis/image@v1.2.0: false
-file: {}
-job: {}
