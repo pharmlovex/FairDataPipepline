@@ -207,3 +207,8 @@ Please specify a subcommand or one of the optional arguments.
 [I 2024-06-13 13:49:09.736 ServerApp] Starting buffering for 56b47fcd-aa38-4364-8c68-30ac9f6f430d:34e68205-2da9-4f9d-ade7-1d199e65a0f2
 [I 2024-06-13 13:49:29.359 ServerApp] Kernel started: bcf37935-4395-4c63-b911-4146c6eaa99d
 [I 2024-06-13 13:49:29.768 ServerApp] Connecting to kernel bcf37935-4395-4c63-b911-4146c6eaa99d.
+[W 2024-06-13 14:01:47.330 ServerApp] Notebook Image_and_Script/simple_analysis.ipynb is not trusted
+[I 2024-06-13 14:01:47.639 ServerApp] Kernel started: 04604286-e78c-4d77-bfc2-e5d18ad0f2e0
+[I 2024-06-13 14:01:48.070 ServerApp] Connecting to kernel 04604286-e78c-4d77-bfc2-e5d18ad0f2e0.
+[I 2024-06-13 14:03:47.399 ServerApp] Saving file at /Image_and_Script/simple_analysis.ipynb
+[I 2024-06-13 14:04:50.492 ServerApp] Saving file at /config.yaml
