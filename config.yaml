@@ -2,4 +2,5 @@ run_metadata:
   default_input_namespace: David
   default_output_namespace: David
   description: Test_run_imagescript
-  script: python3 Image_and_Script/simple_analysis.ipynb
+  script: jupyter nbconvert --to html --execute Image_and_Script/2a_python.ipynb --output Image_and_Script/2a_python.html
+
