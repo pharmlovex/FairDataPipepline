@@ -11,7 +11,6 @@ import data_pipeline_api as pipeline
 
 token = str(os.environ.get("FDP_LOCAL_TOKEN"))
 script = os.path.join(str(os.environ.get("FDP_CONFIG_DIR")), "script.sh")
-print(script)
 if platform.system() == "Windows":
     script = os.path.join(str(os.environ.get("FDP_CONFIG_DIR")), "script.bat")
 config = os.path.join(str(os.environ.get("FDP_CONFIG_DIR")), "config.yaml")
@@ -41,7 +40,7 @@ labels = skimage.measure.label(im_data_copy)
 mask_data = pd.DataFrame(skimage.measure.regionprops_table(labels, properties = props))
 
 # Use tifffile to save the cell masks. 
-tf.imwrite(pipeline.link_write(handle, "Ryan_analysis/results/figure"))
+tf.imwrite(pipeline.link_write(handle, "Ryan_analysis/results/figure"),labels)
 
 # Use Pandas to save shape analysis as a .csv file. 
 mask_data.to_csv(pipeline.link_write(handle, "Ryan_analysis/results/analysis"))
