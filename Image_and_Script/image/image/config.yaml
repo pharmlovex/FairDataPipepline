@@ -1,0 +1,32 @@
+run_metadata:
+  default_input_namespace: pharmlovex
+  default_output_namespace: pharmlovex
+  description: Project description
+  script: python ~/work/FairDataPipepline/Image_and_Script/image/image/main.py
+  remote_repo: https://github.com/pharmlovex/FairDataPipepline
+
+register:
+- namespace: GlasgowUniversity
+  full_name: Ifedayo
+  website: https://glasgow.ac.uk
+
+- external_object: SEIRS_model/parameters
+  namespace_name: GlasgowUniversity
+  root: file:///home/jovyan/work/FairDataPipepline/
+  path: Image_and_Script/image/image/single_frame_image.tif
+  title: Single Frame Image
+  description: Image Analysis
+  identifier: https://doi.org/10.1038/s41592-020-0856-2
+  file_type: tif
+  release_date: 2021-09-20T12:00
+  version: "1.0.0"
+  primary: "false"
+
+write:
+- data_product: image/results/image_analysis
+  description: Image Morphology results
+  file_type: csv
+
+- data_product: image/results/image_mask
+  description: Image Mask
+  file_type: tiff

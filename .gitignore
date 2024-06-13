@@ -1,0 +1,4 @@
+.fair/
+.ipynb_checkpoints/
+build
+dist
