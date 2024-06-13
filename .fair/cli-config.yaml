@@ -1,0 +1,20 @@
+git:
+  local_repo: C:/Users/RCORBYN/Documents/GitHub/Hackathon/FairDataPipepline
+  remote: origin
+  remote_repo: https://github.com/pharmlovex/FairDataPipepline.git
+namespaces:
+  input: ryancorbyn
+  output: ryancorbyn
+registries:
+  origin:
+    data_store: ' https://test-data.fairdatapipeline.org/data/'
+    token: C:\Users\RCORBYN\.fair\cli\remotetoken.txt
+    uri: ' https://test-data.fairdatapipeline.org/api/'
+user:
+  email: RCorbyn@users.noreply.github.com
+  family_name: Corbyn
+  given_names: Ryan
+  name: Ryan Corbyn
+  orcid: 0000-0002-6488-0495
+  remote_user: RCorbyn
+  uri: https://orcid.org/0000-0002-6488-0495

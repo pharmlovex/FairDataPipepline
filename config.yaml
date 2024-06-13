@@ -1,0 +1,5 @@
+run_metadata:
+  default_input_namespace: ryancorbyn
+  default_output_namespace: ryancorbyn
+  description: Run Image analysis script
+  script: jjupyter nbconvert --to html --execute Image_and_Script/simple_analysis.ipynb
