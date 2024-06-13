@@ -35,12 +35,12 @@ def process_image(file_path, mask_dir, prop_dir):
     mask_data = pd.DataFrame(skimage.measure.regionprops_table(labels, properties=props))
 
     # Use tifffile to save the cell masks. 
-    output_mask_path = os.path.join(mask_dir + os.path.splitext(file_path)[0] + '_mask.tif')
+    output_mask_path = os.path.join(mask_dir + '/' + os.path.splitext(file_path)[0] + '_mask.tif')
     tf.imwrite(output_mask_path, labels)
 
     # Use Pandas to save shape analysis as a 
     # .csv file. 
-    output_csv_path = os.path.join(prop_dir + os.path.splitext(file_path)[0] + '_shape_analysis.csv')
+    output_csv_path = os.path.join(prop_dir + '/' + os.path.splitext(file_path)[0] + '_shape_analysis.csv')
     mask_data.to_csv(output_csv_path)
 
 def main():
