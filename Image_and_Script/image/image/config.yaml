@@ -10,17 +10,11 @@ register:
   full_name: Ifedayo Ojo
   website: https://github.com/pharmlovex
 
-- external_object: image/data
-  namespace_name: pharmlovex
-  root: file:///home/jovyan/work/FairDataPipepline/
+
+read:
+- data_product: image/data
   path: Image_and_Script/image/image/single_frame_image.tif
-  title: Single Frame Image
-  description: Image Analysis
-  identifier: https://doi.org/10.1038/s41592-020-0856-2
-  file_type: tif
-  release_date: 2021-09-20T12:00
-  version: "1.0.0"
-  primary: "false"
+ 
 
 write:
 - data_product: image/results/image_analysis
