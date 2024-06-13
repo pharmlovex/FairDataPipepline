@@ -1,8 +1,12 @@
-code_run: {}
+code_run:
+  8ee166c6-7397-4a85-9b7b-dd6022059074: false
 data_product:
   PSU:SEIRS_model/parameters@v1.0.0: false
   realailaantoniou-kourounioti:Ryan_analysis/image@v1.0.0: false
   realailaantoniou-kourounioti:Ryan_analysis/image@v1.1.0: false
   realailaantoniou-kourounioti:Ryan_analysis/image@v1.2.0: false
+  realailaantoniou-kourounioti:Ryan_analysis/results/analysis@v0.0.1: false
+  realailaantoniou-kourounioti:Ryan_analysis/results/figure@v0.0.1: false
 file: {}
-job: {}
+job:
+  9f57bb4100b3ee280a13f5bf740184c47461dc0f: false
