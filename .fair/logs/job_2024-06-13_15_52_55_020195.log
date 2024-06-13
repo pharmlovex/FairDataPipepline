@@ -1,0 +1,12 @@
+--------------------------------
+ Commenced = Thu Jun 13 15:52:55 2024 
+ Author    = David McGuinness <david.mcguinness.2@glasgow.ac.uk>
+ Command   = /home/davidmcguinness/.fair/data/jobs/2024-06-13_15_52_55_020195/script.sh
+--------------------------------
+Traceback (most recent call last):
+  File "/media/davidmcguinness/extradrive2/Data_Analysis/FAIR_data_pipeline/FairDataPipepline/Image_and_Script/simple_analysis.py", line 52, in <module>
+    image_data = tf.imread(pipeline.link_read(handle, 'Image_and_Script/single_frame_image.tif'))
+  File "/home/davidmcguinness/.local/lib/python3.10/site-packages/data_pipeline_api/link.py", line 160, in link_read
+    id=int(fdp_utils.extract_id(data_product_response[0]["object"])),
+IndexError: list index out of range
+------- time taken 0:00:00.862808 -------

@@ -49,7 +49,7 @@ handle = pipeline.initialise(token, config, script)
 
 
 # Read the image data into the script.
-image_data = tf.imread(pipeline.link_read(handle, 'Image_and_Script/single_frame_image.tif'))
+image_data = tf.imread(pipeline.link_read(handle, 'python_basic/image'))
 # Copy image data so as not to corrupt raw data. 
 im_data_copy = np.array(image_data)
 
@@ -91,10 +91,10 @@ mask_data = pd.DataFrame(skimage.measure.regionprops_table(labels, properties = 
 
 
 # Use tifffile to save the cell masks. 
-tf.imwrite(pipeline.link_write(handle, 'Image_and_Script/single_frame_image_mask.tif', labels))
+tf.imwrite(pipeline.link_write(handle, 'python_basic/results/figure', labels))
 
 # Use Pandas to save shape analysis as a 
 # .csv file. 
-mask_data.to_csv(pipeline.link_write(handle, 'Image_and_Script/single_frame_shape_analysis.csv'))
+mask_data.to_csv(pipeline.link_write(handle, 'python_basic/results/analysis'))
 
 pipeline.finalise(token, handle)
