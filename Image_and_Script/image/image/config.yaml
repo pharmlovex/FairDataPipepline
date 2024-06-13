@@ -10,7 +10,7 @@ register:
   full_name: Ifedayo
   website: https://glasgow.ac.uk
 
-- external_object: SEIRS_model/parameters
+- external_object: image/data
   namespace_name: GlasgowUniversity
   root: file:///home/jovyan/work/FairDataPipepline/
   path: Image_and_Script/image/image/single_frame_image.tif
