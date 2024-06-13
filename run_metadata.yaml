@@ -1,0 +1,31 @@
+run_metadata:
+  default_input_namespace: realailaantoniou-kourounioti
+  default_output_namespace: realailaantoniou-kourounioti
+  description: "Ryan's image analysis project - Rea branch"
+  script: python Image_and_Script/simple_analysis.py
+  remote_repo: https://github.com/pharmlovex/FairDataPipepline
+ 
+register:
+- namespace: realailaantoniou-kourounioti
+  full_name: Rea Antoniou-Kourounioti
+  website: https://github.com/ReaAntKour
+ 
+- external_object: Ryan_analysis/image
+  namespace_name: realailaantoniou-kourounioti
+  root: file:///Users/ryanfield/Dev/FairDataPipepline/
+  path: Image_and_Script/single_frame_image.tif
+  title: Static image
+  description: Static image to analyse
+  identifier: https://doi.org/10.7554/eLife.79743 
+  file_type: tif
+  release_date: 2024-06-13T12:00
+  version: "1.0.0"
+  primary: "false"
+write:
+- data_product: Ryan_analysis/results/analysis
+  description: Excel data
+  file_type: csv
+ 
+- data_product: Ryan_analysis/results/figure
+  description: plot
+  file_type: tif
