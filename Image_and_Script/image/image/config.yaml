@@ -6,12 +6,12 @@ run_metadata:
   remote_repo: https://github.com/pharmlovex/FairDataPipepline
 
 register:
-- namespace: GlasgowUniversity
-  full_name: Ifedayo
-  website: https://glasgow.ac.uk
+- namespace: pharmlovex
+  full_name: Ifedayo Ojo
+  website: https://github.com/pharmlovex
 
 - external_object: image/data
-  namespace_name: GlasgowUniversity
+  namespace_name: pharmlovex
   root: file:///home/jovyan/work/FairDataPipepline/
   path: Image_and_Script/image/image/single_frame_image.tif
   title: Single Frame Image
