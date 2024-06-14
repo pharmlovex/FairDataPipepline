@@ -21,7 +21,7 @@ register:
   release_date: 2024-06-13T12:00
   version: "1.2.0"
   primary: "false"
-  
+ 
 write:
 - data_product: analysis1
   description: Excel data
