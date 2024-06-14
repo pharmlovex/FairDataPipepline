@@ -91,7 +91,7 @@ mask_data = pd.DataFrame(skimage.measure.regionprops_table(labels, properties = 
 
 
 # Use tifffile to save the cell masks. 
-tf.imwrite(pipeline.link_write(handle, 'figure1', labels))
+tf.imwrite(pipeline.link_write(handle, 'figure1'), labels)
 
 # Use Pandas to save shape analysis as a 
 # .csv file. 
