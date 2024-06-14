@@ -224,3 +224,14 @@ Please specify a subcommand or one of the optional arguments.
 [I 2024-06-13 15:03:14.329 ServerApp] Starting buffering for 04604286-e78c-4d77-bfc2-e5d18ad0f2e0:41c304f5-0b62-4ee7-bc45-cbf84e76ba5f
 [I 2024-06-13 15:27:48.158 ServerApp] Kernel started: 13715573-2480-4221-9995-6d9059069774
 [I 2024-06-13 15:27:48.675 ServerApp] Connecting to kernel 13715573-2480-4221-9995-6d9059069774.
+[I 2024-06-14 11:32:25.826 ServerApp] Kernel started: 8b44972d-cd18-4bdd-8c59-01ecc79c2326
+[I 2024-06-14 11:32:26.284 ServerApp] Connecting to kernel 8b44972d-cd18-4bdd-8c59-01ecc79c2326.
+[I 2024-06-14 11:32:32.592 ServerApp] Starting buffering for bcf37935-4395-4c63-b911-4146c6eaa99d:192aaa7c-ba2f-4d85-b2d8-b29fab3b273f
+[I 2024-06-14 11:32:39.164 ServerApp] Starting buffering for 13715573-2480-4221-9995-6d9059069774:b6ec6769-c8ff-4d91-8651-0a6380ad7919
+[I 2024-06-14 11:40:26.140 ServerApp] Saving file at /Image_and_Script/Jupyter/simple_analysis.ipynb
+[I 2024-06-14 11:42:26.264 ServerApp] Saving file at /Image_and_Script/Jupyter/simple_analysis.ipynb
+[I 2024-06-14 11:44:26.452 ServerApp] Saving file at /Image_and_Script/Jupyter/simple_analysis.ipynb
+[I 2024-06-14 11:44:49.925 ServerApp] Saving file at /Image_and_Script/Jupyter/simple_analysis.ipynb
+[I 2024-06-14 11:45:27.956 ServerApp] Saving file at /Image_and_Script/Jupyter/simple_analysis.ipynb
+[I 2024-06-14 11:45:47.224 ServerApp] Saving file at /Image_and_Script/Jupyter/simple_analysis.ipynb
+[I 2024-06-14 11:45:56.211 ServerApp] Saving file at /Image_and_Script/Jupyter/simple_analysis.ipynb
