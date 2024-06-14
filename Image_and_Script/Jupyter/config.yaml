@@ -1,0 +1,32 @@
+run_metadata:
+  default_input_namespace: David
+  default_output_namespace: David
+  description: Test_run_imagescript
+  script: python3 Image_and_Script/simple_analysis.py
+  remote_repo: https://github.com/pharmlovex/FairDataPipepline
+
+register:
+- namespace: David
+  full_name: David McGuinness
+  website: https://github.com/dhmcg77
+
+- external_object: python_basic/image
+  namespace_name: David
+  root: file:///home/jovyan/work/FairDataPipepline/
+  path: Image_and_Script/single_frame_image.tif
+  title: Static image
+  description: Static image for analyse
+  identifier: https://doi.org/10.1038/s41592-020-0856-2
+  file_type: tif
+  release_date: 2024-06-13T12:00
+  version: "1.2.0"
+  primary: "false"
+  
+write:
+- data_product: python_basic/results/analysis
+  description: Excel data
+  file_type: csv
+
+- data_product: python_basic/results/figure
+  description: plot
+  file_type: tif
