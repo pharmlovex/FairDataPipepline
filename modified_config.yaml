@@ -1,0 +1,23 @@
+run_metadata:
+  default_input_namespace: realailaantoniou-kourounioti
+  default_output_namespace: realailaantoniou-kourounioti
+  description: "Ryan's image analysis project - Rea branch"
+  script: python ~/work/FairDataPipepline/Image_and_Script/simple_analysis.py
+  remote_repo: https://github.com/pharmlovex/FairDataPipepline
+
+register:
+- data_product: Ryan_analysis/image
+  root: file:///home/jovyan/work/FairDataPipepline/
+  path: Image_and_Script/single_frame_image.tif
+  title: Static image
+  description: Static image to analyse
+  file_type: tif
+  
+write:
+- data_product: Ryan_analysis/results/analysis
+  description: Excel data
+  file_type: csv
+
+- data_product: Ryan_analysis/results/figure
+  description: plot
+  file_type: tif
