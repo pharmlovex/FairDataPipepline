@@ -1,7 +1,0 @@
---------------------------------
- Commenced = Thu Jun 13 13:59:34 2024 
- Author    = David McGuinness <david.mcguinness.2@glasgow.ac.uk>
- Command   = /home/davidmcguinness/.fair/data/jobs/2024-06-13_13_59_34_941144/script.sh
---------------------------------
-Image_and_Script/simple_analysis.ipynb: 197: Syntax error: end of file unexpected (expecting "}")
-------- time taken 0:00:00.066170 -------
