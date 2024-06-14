@@ -12,7 +12,7 @@ register:
 
 - external_object: image1
   namespace_name: David
-  root: file:///home/jovyan/work/FairDataPipepline/
+  root: https://github.com/pharmlovex/FairDataPipepline/blob/David/
   path: Image_and_Script/python/single_frame_image.tif
   title: Static image
   description: Static image for analyse
@@ -21,7 +21,7 @@ register:
   release_date: 2024-06-13T12:00
   version: "1.2.0"
   primary: "false"
- 
+
 write:
 - data_product: analysis1
   description: Excel data
