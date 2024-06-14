@@ -10,10 +10,10 @@ def process_image(file_path, mask_dir, prop_dir):
     if not os.path.exists(file_path):
         print(f"Error: The file {file_path} does not exist.")
         sys.exit(1)
-    if not os.path.exists(mask_dir):
-        os.makedirs(mask_dir)
-    if not os.path.exists(prop_dir):
-        os.makedirs(prop_dir)
+    # if not os.path.exists(mask_dir):
+    #     os.makedirs(mask_dir)
+    # if not os.path.exists(prop_dir):
+    #     os.makedirs(prop_dir)
     image_data = tf.imread(file_path)
     # Copy image data so as not to corrupt raw data. 
     im_data_copy = np.array(image_data)
@@ -35,13 +35,13 @@ def process_image(file_path, mask_dir, prop_dir):
     mask_data = pd.DataFrame(skimage.measure.regionprops_table(labels, properties=props))
 
     # Use tifffile to save the cell masks. 
-    output_mask_path = os.path.join(mask_dir + '/' + os.path.splitext(file_path)[0] + '_mask.tif')
-    tf.imwrite(output_mask_path, labels)
+    # output_mask_path = os.path.splitext(file_path)[0] + '_mask.tif')
+    tf.imwrite(mask_dir, labels)
 
     # Use Pandas to save shape analysis as a 
     # .csv file. 
-    output_csv_path = os.path.join(prop_dir + '/' + os.path.splitext(file_path)[0] + '_shape_analysis.csv')
-    mask_data.to_csv(output_csv_path)
+    # output_csv_path = os.path.join(prop_dir + '/' + os.path.splitext(file_path)[0] + '_shape_analysis.csv')
+    mask_data.to_csv(prop_dir)
 
 def main():
     parser = argparse.ArgumentParser(description="Process a single-frame image and generate masks and shape analysis.")
