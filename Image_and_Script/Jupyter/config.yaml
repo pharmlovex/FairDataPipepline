@@ -12,14 +12,14 @@ register:
 
 - external_object: jupyter_image
   namespace_name: David
-  root: https://github.com/pharmlovex/FairDataPipepline/blob/David/
+  root: https://github.com/pharmlovex/FairDataPipepline/raw/David/
   path: Image_and_Script/Jupyter/single_frame_image.tif
   title: Static image
   description: Static image for analyse
   identifier: https://doi.org/10.1038/s41592-020-0856-2
   file_type: tif
   release_date: 2024-06-13T12:00
-  version: "1.1.0"
+  version: "1.1.1"
   primary: "false"
   
 write:
