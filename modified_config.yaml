@@ -5,7 +5,7 @@ run_metadata:
   script: python ~/work/FairDataPipepline/Image_and_Script/simple_analysis.py
   remote_repo: https://github.com/pharmlovex/FairDataPipepline
 
-register:
+read:
 - data_product: Ryan_analysis/image
   root: file:///home/jovyan/work/FairDataPipepline/
   path: Image_and_Script/single_frame_image.tif
